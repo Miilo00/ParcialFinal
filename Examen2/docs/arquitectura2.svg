@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820">
+  <rect width="1400" height="820" fill="#f8fafc"/>
+  <text x="700" y="52" text-anchor="middle" font-family="Arial" font-size="32" font-weight="bold" fill="#1f2937">Arquitectura Hexagonal — Exámenes de Sangre</text>
+
+  <rect x="520" y="120" width="360" height="560" rx="30" fill="#eff6ff" stroke="#2563eb" stroke-width="4"/>
+  <text x="700" y="155" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#1e3a8a">NÚCLEO / DOMINIO</text>
+
+  <rect x="600" y="190" width="200" height="120" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+  <text x="700" y="220" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#1e3a8a">Dominio</text>
+  <text x="700" y="250" text-anchor="middle" font-family="Arial" font-size="15" fill="#334155">ExamenSangre</text>
+  <text x="700" y="275" text-anchor="middle" font-family="Arial" font-size="15" fill="#334155">TipoSangre · FactorRH</text>
+
+  <rect x="550" y="350" width="300" height="250" rx="16" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
+  <text x="700" y="385" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#1e3a8a">Aplicación</text>
+  <text x="700" y="425" text-anchor="middle" font-family="Arial" font-size="16" fill="#334155">ExamenService</text>
+  <text x="700" y="460" text-anchor="middle" font-family="Arial" font-size="15" fill="#334155">Registrar</text>
+  <text x="700" y="490" text-anchor="middle" font-family="Arial" font-size="15" fill="#334155">Listar</text>
+  <text x="700" y="520" text-anchor="middle" font-family="Arial" font-size="15" fill="#334155">Serializar / Deserializar</text>
+
+  <rect x="60" y="230" width="330" height="200" rx="18" fill="#fff7ed" stroke="#ea580c" stroke-width="4"/>
+  <text x="225" y="265" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#9a3412">Adaptador de entrada</text>
+  <text x="225" y="300" text-anchor="middle" font-family="Arial" font-size="16" fill="#334155">Vista primary.fxml</text>
+  <text x="225" y="335" text-anchor="middle" font-family="Arial" font-size="16" fill="#334155">ControladorPrincipal</text>
+  <text x="225" y="370" text-anchor="middle" font-family="Arial" font-size="14" fill="#334155">Guarda · Limpia · Lista</text>
+  <text x="225" y="395" text-anchor="middle" font-family="Arial" font-size="14" fill="#334155">Serializa · Deserializa</text>
+
+  <rect x="60" y="500" width="330" height="130" rx="18" fill="#fff7ed" stroke="#ea580c" stroke-width="4"/>
+  <text x="225" y="535" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#9a3412">Puerto de entrada</text>
+  <text x="225" y="575" text-anchor="middle" font-family="Arial" font-size="16" fill="#334155">PuertoExamenEntrada</text>
+  <text x="225" y="605" text-anchor="middle" font-family="Arial" font-size="14" fill="#334155">interfaz de casos de uso</text>
+
+  <rect x="1010" y="220" width="330" height="170" rx="18" fill="#f0fdf4" stroke="#16a34a" stroke-width="4"/>
+  <text x="1175" y="255" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#166534">Puertos de salida</text>
+  <text x="1175" y="295" text-anchor="middle" font-family="Arial" font-size="16" fill="#334155">ExamenRepository</text>
+  <text x="1175" y="330" text-anchor="middle" font-family="Arial" font-size="16" fill="#334155">SerializacionPort</text>
+
+  <rect x="1010" y="470" width="330" height="230" rx="18" fill="#f0fdf4" stroke="#16a34a" stroke-width="4"/>
+  <text x="1175" y="505" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#166534">Adaptadores de salida</text>
+  <text x="1175" y="545" text-anchor="middle" font-family="Arial" font-size="16" fill="#334155">RepositorioExamenEnMemoria</text>
+  <text x="1175" y="585" text-anchor="middle" font-family="Arial" font-size="16" fill="#334155">FileSerializacionAdapter</text>
+  <text x="1175" y="620" text-anchor="middle" font-family="Arial" font-size="14" fill="#334155">Persistencia Java / examen.dat</text>
+  <text x="1175" y="650" text-anchor="middle" font-family="Arial" font-size="14" fill="#334155">Implementa puertos de salida</text>
+
+  <line x1="390" y1="330" x2="550" y2="420" stroke="#ea580c" stroke-width="4" marker-end="url(#flechaA)"/>
+  <line x1="390" y1="565" x2="550" y2="500" stroke="#ea580c" stroke-width="4" marker-end="url(#flechaA)"/>
+  <line x1="850" y1="420" x2="1010" y2="305" stroke="#16a34a" stroke-width="4" marker-end="url(#flechaS)"/>
+  <line x1="1010" y1="470" x2="850" y2="520" stroke="#16a34a" stroke-width="4" marker-end="url(#flechaS)"/>
+
+  <rect x="510" y="735" width="380" height="55" rx="12" fill="#e2e8f0" stroke="#64748b" stroke-width="2"/>
+  <text x="700" y="768" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#334155">App = composición de dependencias</text>
+
+  <defs>
+    <marker id="flechaA" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#ea580c"/></marker>
+    <marker id="flechaS" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/></marker>
+  </defs>
+</svg>

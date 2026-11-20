@@ -1,0 +1,7 @@
+Examen2/target/
+Examen2/examenes.dat
+Examen2/.classpath
+Examen2/.project
+Examen2/.settings/
+*.class
+node_modules/

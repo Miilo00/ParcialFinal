@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+  <rect width="1000" height="560" fill="#f8fafc"/>
+  <text x="500" y="55" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold" fill="#1f2937">Resumen de calidad — SonarQube</text>
+  <rect x="70" y="100" width="860" height="390" rx="18" fill="#ffffff" stroke="#2563eb" stroke-width="4"/>
+  <rect x="110" y="145" width="220" height="140" rx="12" fill="#ecfdf5" stroke="#16a34a" stroke-width="3"/>
+  <text x="220" y="185" text-anchor="middle" font-family="Arial" font-size="18" fill="#166534">Pruebas</text>
+  <text x="220" y="235" text-anchor="middle" font-family="Arial" font-size="42" font-weight="bold" fill="#166534">5</text>
+  <text x="220" y="270" text-anchor="middle" font-family="Arial" font-size="16" fill="#166534">0 fallos · 0 errores</text>
+  <rect x="390" y="145" width="220" height="140" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/>
+  <text x="500" y="185" text-anchor="middle" font-family="Arial" font-size="18" fill="#1e3a8a">Compilación</text>
+  <text x="500" y="235" text-anchor="middle" font-family="Arial" font-size="34" font-weight="bold" fill="#1e3a8a">EXITOSA</text>
+  <text x="500" y="270" text-anchor="middle" font-family="Arial" font-size="16" fill="#1e3a8a">Java 11 · Maven</text>
+  <rect x="670" y="145" width="220" height="140" rx="12" fill="#f5f3ff" stroke="#7c3aed" stroke-width="3"/>
+  <text x="780" y="185" text-anchor="middle" font-family="Arial" font-size="18" fill="#6d28d9">Arquitectura</text>
+  <text x="780" y="235" text-anchor="middle" font-family="Arial" font-size="34" font-weight="bold" fill="#6d28d9">HEXAGONAL</text>
+  <text x="780" y="270" text-anchor="middle" font-family="Arial" font-size="16" fill="#6d28d9">3 patrones GoF</text>
+  <text x="110" y="340" font-family="Arial" font-size="17" fill="#334155">JavaDoc: documentación generada correctamente.</text>
+  <text x="110" y="375" font-family="Arial" font-size="17" fill="#334155">Separación: dominio, aplicación, puertos y adaptadores.</text>
+  <text x="110" y="410" font-family="Arial" font-size="17" fill="#334155">Configuración Sonar: sonar-project.properties incluido.</text>
+  <text x="110" y="445" font-family="Arial" font-size="14" fill="#64748b">Resumen listo para publicación en la wiki del repositorio.</text>
+</svg>
